@@ -1,5 +1,5 @@
 # Carlos Andrés Montero Moreno
-**Desarrollador Backend Junior | Sistemas Linux | Ingeniero en Computación e Informática**
+**Desarrollador Backend (Node.js / TypeScript) | Linux | APIs REST | CI/CD**
 
 Quilpué, Chile  
 Email: carlos.a.montero.m@gmail.com  
@@ -10,54 +10,60 @@ LinkedIn: https://linkedin.com/in/carlosmontero-dev
 ## Resumen Profesional
 Ingeniero en Computación e Informática en transición hacia el desarrollo de software, con experiencia práctica construyendo aplicaciones web y APIs REST utilizando JavaScript, TypeScript, Node.js y PostgreSQL.
 
-Más de 10 años de experiencia operando sistemas industriales críticos en el sector energético, aportando pensamiento analítico, resolución de problemas y capacidad de diagnóstico técnico a entornos de software e infraestructura.
+Experiencia trabajando en entornos Linux, automatización de tareas con Bash y desarrollo de pipelines simples de CI/CD utilizando GitHub Actions.
+
+Más de 10 años operando sistemas industriales críticos en el sector energético, aportando pensamiento analítico, resolución de problemas y diagnóstico técnico en entornos complejos.
 
 ## Habilidades Técnicas
-- **Lenguajes** — JavaScript (ES6+), TypeScript, Python (básico), Bash scripting
 - **Backend** — Node.js, Express.js, APIs REST
+- **Lenguajes** — JavaScript (ES6+), TypeScript, Python (básico), Bash
 - **Bases de datos** — PostgreSQL, MongoDB, CouchDB
-- **Sistemas** — Linux (Fedora, Ubuntu Server), scripting y configuración de entornos
-- **Herramientas** — Git, GitHub, Github Pages, VS Code
+- **Dev Tools** — Git, GitHub, GitHub Actions, CI/CD, GitHub Pages
+- **Sistemas** — Linux (Fedora, Ubuntu Server)
 - **Conceptos** — CRUD, integración de APIs, automatización, variables de entorno
 
 ## Proyectos
 - **API REST – Gestor de Tareas**
-  - API REST desarrollada con Node.js, Express y TypeScript.
-  - Implementación de endpoints CRUD con arquitectura por capas.
-  - Persistencia de datos en PostgreSQL y uso de variables de entorno.
-  - Proyecto en desarrollo como parte de un proceso de aprendizaje backend.
+  - Desarrollo de API REST con Node.js, Express y TypeScript para gestión de tareas
+  - Diseño de arquitectura por capas separando controladores, servicios y acceso a datos
+  - Persistencia en PostgreSQL y configuración mediante variables de entorno
 
 - **Aplicación CRUD – Gestor de Tareas (Frontend)**
-  - Aplicación web desarrollada con HTML, CSS y JavaScript ES6+.
-  - Consumo de una API REST y manejo de estado en el frontend.
-  - Interacción dinámica con el DOM y enfoque en claridad del código.
+  - Aplicación web desarrollada con HTML, CSS y JavaScript ES6+
+  - Consumo de API REST y manejo de estado en frontend
+  - Manipulación dinámica del DOM con enfoque en claridad del código
 
 - **Explorador de la API de Rick & Morty**
-  - Aplicación web tipo Single Page Application que consume una API REST pública.
-  - Renderizado dinámico de datos, paginación y manejo básico de errores.
-  - Desarrollo enfocado en fundamentos de JavaScript y consumo de APIs.
+  - Single Page Application que consume una API REST pública
+  - Renderizado dinámico de datos, paginación y manejo básico de errores
+  - Enfoque en consumo de APIs y manipulación del DOM con JavaScript
 
 - **CV Online – Sitio Web Profesional**
-  - Sitio web de portafolio personal desarrollado con HTML, CSS y JavaScript.
-  - Versión bilingüe (ES/EN) con descarga de CV en PDF según idioma.
-  - Diseño responsive y despliegue mediante GitHub Pages.
+  - Sitio web de portafolio personal desarrollado con HTML, CSS y JavaScript
+  - Versión bilingüe (ES/EN) con descarga dinámica de CV en PDF
+  - Diseño responsive y despliegue mediante GitHub Pages
+
+- **CV Builder – Automatización de generación de CV**
+  - Generación automática de CV en PDF desde Markdown utilizando Pandoc y LaTeX
+  - Automatización del proceso de compilación mediante scripts en Bash
+  - Pipeline de CI con GitHub Actions para construir y versionar PDFs en cada commit
 
 ## Experiencia Profesional
-- **Backend Developer (Apprenticeship) — Synware** 
+- **Backend Developer (Apprenticeship) — Synware**  
   2025 – Presente  
-  Desarrollo de API REST con Node.js, Express, PostgreSQL y TypeScript. Implementación de CRUD, arquitectura por capas y buenas prácticas.
+  Desarrollo de API REST con Node.js, Express, PostgreSQL y TypeScript. Implementación de CRUD, arquitectura por capas y buenas prácticas de backend.
 
-- **Operador de Procesos — ENAP Aconcagua**  
+- **Operador de Procesos — ENAP Refineria Aconcagua**  
   2016 – 2025 | Concón, Chile  
-  Monitoreo y control de sistemas industriales críticos, resolución de problemas en tiempo real, documentación técnica y colaboración con equipos multidisciplinarios.
+  Operación y monitoreo de sistemas industriales críticos en refinería. Resolución de incidentes en tiempo real y coordinación con equipos técnicos.
 
-- **Soporte Técnico en Computación (Independiente)**
+- **Soporte Técnico en Computación (Independiente)**  
   2006 – Presente  
-  Mantención, armado y desarmado de computadores, soporte a usuarios, instalación de sistemas operativos y soporte de hardware.
+  Mantención y diagnóstico de hardware, instalación de sistemas operativos y soporte técnico a usuarios.
 
-- **Técnico en Control de Procesos — UTFSM (CCTVal)**  
+- **Control de Procesos — UTFSM (CCTVal)**  
   2013 – 2014 | Valparaíso, Chile  
-  Trabajos de pulido avanzado para proyectos de investigación en aceleradores de partículas, control de calidad y tareas de precisión técnica.
+  Trabajos de precisión para proyectos de investigación en aceleradores de partículas y control de calidad en componentes científicos.
 
 - **Técnico en Electrónica — Sensar Ltda.**  
   2010 | Valparaíso, Chile  
@@ -68,5 +74,5 @@ Más de 10 años de experiencia operando sistemas industriales críticos en el s
 - **DUOC UC** — Técnico en Electricidad y Electrónica, 2014
 
 ## Idiomas
-- Español (Nativo) 
+- Español (Nativo)
 - Inglés (Nivel Profesional de Trabajo, TOEIC)

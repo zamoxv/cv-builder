@@ -1,39 +1,41 @@
 \documentclass[10pt]{article}
 
 \usepackage[margin=1.2cm]{geometry}
+\raggedbottom
+
 \usepackage[hidelinks]{hyperref}
 \usepackage{enumitem}
 \usepackage{titlesec}
 
 \usepackage{fontspec}
-\setmainfont{Source Serif 4}
-\setsansfont{Source Sans 3}
-
+\usepackage{lmodern}
 \usepackage{microtype}
+\microtypesetup{protrusion=true}
 
 \pagenumbering{gobble}
 
 \setlength{\parindent}{0pt}
 \setlength{\parskip}{0pt}
-\linespread{0.96}
+\linespread{0.94}
 
 \setcounter{secnumdepth}{0}
 
 \titleformat{\section}
-{\large\bfseries}
+{\Large\bfseries}
 {}
 {0em}
 {}
 
 % Sections (compact but readable)
-\titlespacing*{\section}{0pt}{0.6em}{0.3em}
+\titlespacing*{\section}{0pt}{0.4em}{0.2em}
 
 % Lists (no extra space)
 \setlist[itemize]{
-  leftmargin=*,
-  itemsep=0pt,
-  topsep=0pt,
-  parsep=0pt
+ leftmargin=*,
+ itemsep=1pt,
+ topsep=1pt,
+ parsep=0pt,
+ partopsep=0pt
 }
 
 \providecommand{\tightlist}{%

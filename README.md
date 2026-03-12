@@ -17,6 +17,11 @@ The goal of this project is to maintain the CV as version-controlled source code
 - Live rebuild using file watchers
 - Spanish and English versions
 
+## CI
+
+PDF files are generated automatically using GitHub Actions.  
+Each commit triggers a CI workflow that compiles the Markdown CVs into PDFs using Pandoc and XeLaTeX.
+
 ## Example CV
 
 Spanish CV  
@@ -30,31 +35,26 @@ These files are compiled into PDF using Pandoc and a custom LaTeX template.
 ## Project Structure
 
 ```text
-CV/
-├─ src/
-│  ├─ Carlos_Montero_CV_ES.md
-│  ├─ Carlos_Montero_CV_EN.md
-│  └─ cover_letter.md
-│
-├─ template/
-│  └─ cv-template.tex
-│
-├─ output/
-│  ├─ Carlos_Montero_CV_ES.pdf
-│  ├─ Carlos_Montero_CV_EN.pdf
-│  └─ Carlos_Montero_Cover_Letter.pdf
-│
-├─ build.sh
-├─ watch.sh
-└─ README.md
+cv-builder/
+├── src/
+|   ├── cover_letter_es.md
+|   ├── cover_letter_en.md
+│   ├── Carlos_Montero_CV_ES.md
+│   └── Carlos_Montero_CV_EN.md
+├── template/
+│   └── cv-template.tex
+├── .github/workflows/
+│   └── build-cv.yml
+├── build.sh
+├── watch.sh
+└── README.md
 ```
 
 ## Requirements
 
 - pandoc
-- texlive
+- texlive (XeLaTeX)
 - inotify-tools
-- xelatex
 
 Install on Fedora:
 
