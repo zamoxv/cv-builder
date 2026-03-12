@@ -1,5 +1,9 @@
 # CV Builder – Carlos Montero
 
+![Build CV](https://github.com/zamoxv/cv-builder/actions/workflows/build-cv.yml/badge.svg)
+
+Automated CV generation using Markdown, Pandoc and LaTeX.
+
 This repository contains the source code for my professional CV, built using Markdown, Pandoc and LaTeX.
 
 The goal of this project is to maintain the CV as version-controlled source code and generate PDF outputs automatically.
@@ -12,6 +16,16 @@ The goal of this project is to maintain the CV as version-controlled source code
 - Bash scripts to automate builds
 - Live rebuild using file watchers
 - Spanish and English versions
+
+## Example CV
+
+Spanish CV  
+[src/Carlos_Montero_CV_ES.md](src/Carlos_Montero_CV_ES.md)
+
+English CV  
+[src/Carlos_Montero_CV_EN.md](src/Carlos_Montero_CV_EN.md)
+
+These files are compiled into PDF using Pandoc and a custom LaTeX template.
 
 ## Project Structure
 
@@ -74,13 +88,3 @@ https://github.com/zamoxv
 
 LinkedIn:
 https://linkedin.com/in/carlosmontero-dev
-
-## Example CV
-
-Spanish CV  
-[src/Carlos_Montero_CV_ES.md](src/Carlos_Montero_CV_ES.md)
-
-English CV  
-[src/Carlos_Montero_CV_EN.md](src/Carlos_Montero_CV_EN.md)
-
-These files are compiled into PDF using Pandoc and a custom LaTeX template.

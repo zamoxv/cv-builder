@@ -16,7 +16,13 @@ jobs:
         run: sudo apt-get update && sudo apt-get install -y pandoc
 
       - name: Install LaTeX
-        run: sudo apt-get install -y texlive-xetex texlive-fonts-recommended texlive-latex-extra
+        run: |
+            sudo apt-get update
+            sudo apt-get install -y texlive-xetex texlive-fonts-recommended texlive-latex-extra
+
+      - name: Install fonts
+        run: |
+          sudo apt-get install -y fonts-source-serif4 fonts-source-sans3
 
       - name: Run build script
         run: chmod +x build.sh && ./build.sh
