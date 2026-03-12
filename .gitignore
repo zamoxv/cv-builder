@@ -1,0 +1,5 @@
+output/*.pdf
+*.log
+*.aux
+*.out
+*.toc

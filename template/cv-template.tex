@@ -1,0 +1,46 @@
+\documentclass[10pt]{article}
+
+\usepackage[margin=1.2cm]{geometry}
+\usepackage[hidelinks]{hyperref}
+\usepackage{enumitem}
+\usepackage{titlesec}
+
+\usepackage{fontspec}
+\setmainfont{Source Serif 4}
+\setsansfont{Source Sans 3}
+
+\usepackage{microtype}
+
+\pagenumbering{gobble}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+\linespread{0.96}
+
+\setcounter{secnumdepth}{0}
+
+\titleformat{\section}
+{\large\bfseries}
+{}
+{0em}
+{}
+
+% Sections (compact but readable)
+\titlespacing*{\section}{0pt}{0.6em}{0.3em}
+
+% Lists (no extra space)
+\setlist[itemize]{
+  leftmargin=*,
+  itemsep=0pt,
+  topsep=0pt,
+  parsep=0pt
+}
+
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}
+}
+
+
+\begin{document}
+$body$
+\end{document}
