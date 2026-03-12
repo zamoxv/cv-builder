@@ -1,0 +1,28 @@
+name: Build CV
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install Pandoc
+        run: sudo apt-get update && sudo apt-get install -y pandoc
+
+      - name: Install LaTeX
+        run: sudo apt-get install -y texlive-xetex texlive-fonts-recommended texlive-latex-extra
+
+      - name: Run build script
+        run: chmod +x build.sh && ./build.sh
+
+      - name: Upload PDFs
+        uses: actions/upload-artifact@v4
+        with:
+          name: CV-PDF
+          path: output/*.pdf

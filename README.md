@@ -74,3 +74,13 @@ https://github.com/zamoxv
 
 LinkedIn:
 https://linkedin.com/in/carlosmontero-dev
+
+## Example CV
+
+Spanish CV  
+[src/Carlos_Montero_CV_ES.md](src/Carlos_Montero_CV_ES.md)
+
+English CV  
+[src/Carlos_Montero_CV_EN.md](src/Carlos_Montero_CV_EN.md)
+
+These files are compiled into PDF using Pandoc and a custom LaTeX template.
